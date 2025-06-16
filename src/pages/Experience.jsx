@@ -6,18 +6,24 @@ import '../styles/pages/experience.css';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Frontend Engineer, Accessibility",
-      company: "Klaviyo",
-      period: "2024 — Present",
-      description: "Build and maintain critical components used to construct Klaviyo's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      title: "School of Management and Technological Innovation (EMIT)",
+      company: "Master Degree , Modeling and Computer Engineering",
+      period: "2025 - Here",
+      description: "Leading the creative team for branding and digital interface projects. Developing visual concepts and overseeing their execution.",
       tags: ["JavaScript", "TypeScript", "React", "Storybook"]
     },
     {
-      title: "Lead Engineer • Upstatement",
-      company: "Senior Engineer • Engineer",
-      period: "2018 — 2024",
-      description: "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+      title: "School of Management and Technological Innovation (EMIT)",
+      company: "License , Internet/Intranet Application Development",
+      period: "2022 - 2024",
+      description: "User interface design for web and mobile applications. Creation of wireframes, prototypes, and design specifications.",
       tags: ["JavaScript", "TypeScript", "HTML & SCSS", "React", "Next.js", "React Native", "WordPress", "Contentful", "Node.js", "PHP"]
+    },
+    {
+      title: "Collège Immaculée Conception (CIC M/njary)",
+      company: "Baccalaureat Serie D",
+      period: "2020 - 2021",
+      description: "Natural sciences and mathematics orientation, training focused on scientific rigor and analysis."
     }
   ];
 

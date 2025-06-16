@@ -7,29 +7,25 @@ const About = () => {
     <section className="section about-section">
       <div className="about-content">
         <p>
-          I'm a developer passionate about crafting accessible, pixel-perfect user 
-          interfaces that blend thoughtful design with robust engineering. My favorite 
-          work lies at the intersection of design and development, creating experiences 
-          that not only look great but are meticulously built for performance and usability.
+          I'm a passionate developer with a strong foundation in creating robust and scalable applications.
+          With expertise in a variety of technologies including <span className="highlight">Express.js</span>, <span className="highlight">React.js</span>, and others, I bring a holistic approach to building web and mobile solutions that deliver exceptional user experiences.
         </p>
         <p>
-          Currently, I'm a Senior Front-End Engineer at <span className="highlight">Klaviyo</span>, 
-          specializing in accessibility. I contribute to the creation and maintenance of UI components 
-          that power Klaviyo's frontend, ensuring our platform meets web accessibility 
-          standards and best practices to deliver an inclusive user experience.
+          Currently, I'm a developer focused on crafting accessible, pixel-perfect user interfaces that seamlessly blend thoughtful design with solid engineering practices.
+          My favorite projects lie at the intersection of design and development — creating experiences that not only look great but are meticulously optimized for performance and usability.
         </p>
         <p>
-          In the past, I've had the opportunity to develop software across a variety of 
-          settings — from <span className="highlight">advertising agencies</span> and{' '}
-          <span className="highlight">large corporations</span> to{' '}
-          <span className="highlight">start-ups</span> and{' '}
-          <span className="highlight">small digital product studios</span>. Additionally, 
-          I also released a <span className="highlight">comprehensive video course</span>{' '}
-          a few years ago, guiding learners through building a web app with the Spotify API.
+          In the past, I've had the chance to work across a wide range of environments — from <span className="highlight">advertising agencies</span> and <span className="highlight">corporate teams</span> to <span className="highlight">startups</span> and <span className="highlight">small digital</span>.
+          This variety has shaped my ability to adapt quickly, collaborate effectively, and deliver high-quality solutions in diverse contexts.
         </p>
         <p>
-          In my spare time, I'm usually climbing, reading, hanging out with my wife and 
-          two cats, or running around Hyrule searching for <span className="highlight">Korok seeds</span>.
+          Beyond coding, I enjoy spending my time exploring new technologies, creating side projects, reading about product design, and sometimes venturing outdoors for a good hike.
+          I'm always curious about how technology can solve real-world problems and improve people's lives.
+        </p>
+        <p>
+          Let's work together to turn your digital ideas into reality.
+          Whether you need a powerful backend, a responsive frontend, or the perfect fusion of both, I'm here to make it happen.
+          &nbsp;<strong>Get in touch, and let's bring your vision to life!</strong>
         </p>
       </div>
     </section>

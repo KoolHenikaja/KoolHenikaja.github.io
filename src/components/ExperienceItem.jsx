@@ -13,11 +13,11 @@ const ExperienceItem = ({ experience }) => {
         <div className="experience-period">{experience.period}</div>
       </div>
       <p className="experience-description">{experience.description}</p>
-      <div className="experience-tags">
+      {/*<div className="experience-tags">
         {experience.tags.map(tag => (
           <span key={tag} className="tag">{tag}</span>
         ))}
-      </div>
+      </div>*/}
     </div>
   );
 };

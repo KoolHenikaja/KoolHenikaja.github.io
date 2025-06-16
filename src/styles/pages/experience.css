@@ -1,5 +1,7 @@
 /* styles/pages/experience.css */
 .experience-section {
+  position: relative;
+  left: 102%;
   padding: 60px 0;
   max-width: 1000px;
   margin: 0 auto;
@@ -37,10 +39,6 @@
 
 .experience-content {
   min-height: 300px;
-}
-
-.experience-item {
-  display: none;
 }
 
 .experience-item.active {

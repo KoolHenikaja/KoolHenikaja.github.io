@@ -6,32 +6,53 @@ import '../styles/pages/projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: "Build a Spotify Connected App",
-      description: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-      tags: ["React", "Express", "Spotify API", "Heroku"],
+      title: "Website for the private institute promoting paramedical services",
+      description: "A website for a private institute promoting paramedical services, designed to showcase the institute’s training programs, healthcare initiatives, and community outreach. The platform provides detailed information on available courses, admission procedures, schedules, and professional opportunities in the paramedical field. It serves as a communication bridge between the institute, students, and healthcare professionals, while promoting awareness and accessibility to quality paramedical education and services.",
+      tags: ["React.js", "Node.js", "MySQL"],
       image: "🎵",
-      link: "#"
+      link: "https://isfpp.com/"
     },
     {
-      title: "Spotify Profile",
-      description: "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+      title: "Visibility website for the Mitsimbina 5 health center",
+      description: "A visibility website for the Mitsimbina 5 Health Center, created to enhance the center’s online presence and provide essential information to the community. The platform highlights the health services offered, consultation schedules, medical staff profiles, and health awareness campaigns. It also serves as a communication channel between the health center and the public, promoting better access to healthcare resources and services for local residents.",
       stats: [
         { icon: "⭐", value: "682" }
       ],
-      tags: ["React", "Express", "Spotify API", "Heroku"],
+      tags: ["React.js"],
       image: "🎧",
+      link: "https://sante-mitsimbinav.netlify.app"
+    },
+    {
+      title: "Real-time viewing platform for surveillance cameras",
+      description: "A real-time viewing platform for surveillance cameras that enables users to monitor live video feeds from multiple cameras through a single, user-friendly interface. This platform provides instant access to video streams via IP connections, ensuring constant, reliable surveillance for homes, businesses, and public spaces. Designed for efficiency and security, it supports high-quality video, multi-camera management, and real-time alerts to enhance safety and situational awareness.",
+      stats: [
+        { icon: "⬇" }
+      ],
+      tags: ["React.js", "Express.js", "PostgreSQL" , "WebRTC"],
+      image: "🎨",
       link: "#"
     },
     {
-      title: "Halcyon Theme",
-      description: "Minimal dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.",
+      title: "School management system for all schools",
+      description: "A school management system for all schools designed to simplify and streamline the administrative, academic.",
       stats: [
-        { icon: "⬇", value: "100k+ Installs" }
+        { icon: "⬇" }
       ],
-      tags: ["VS Code", "Sublime Text", "Atom"],
+      tags: ["React.js", "Spring Boot", "PostgreSQL"],
       image: "🎨",
       link: "#"
-    }
+    },
+    {
+      title: "Platform for delivery and small jobs for students called ATERO",
+      description: "ATERO is an innovative platform designed especially for students. It connects students seeking small, flexible jobs and delivery tasks with individuals or businesses in need of specific services. Easy to use and adaptable, ATERO allows young people to earn extra income while fitting work around their academic schedules. It’s both a local service and a valuable stepping stone towards professional experience.",
+      stats: [
+        { icon: "⬇" }
+      ],
+      tags: ["React.js", "Spring Boot", "PostgreSQL"],
+      image: "🎨",
+      link: "#"
+    },
+
   ];
 
   return (
