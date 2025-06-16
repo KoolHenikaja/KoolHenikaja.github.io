@@ -7,7 +7,11 @@ const ProjectCard = ({ project }) => {
     <div className="project-card">
       <a href={project.link || '#'} className="project-link" target="_blank" rel="noopener noreferrer">
         <div className="project-image">
-          {project.image || 'IMG'}
+          {project.image ? (
+            <img src={project.image} alt={project.title} />
+          ) : (
+            'IMG'
+          )}
         </div>
         <div className="project-content">
           <div className="project-header">

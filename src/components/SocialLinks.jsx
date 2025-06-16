@@ -2,6 +2,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaWhatsapp, FaGitlab } from 'react-icons/fa';
 import '../styles/components/social-links.css';
+import GIF from '../assets/rotate.gif';
 
 const SocialLinks = () => {
   const socialLinks = [
@@ -25,6 +26,11 @@ const SocialLinks = () => {
           {link.icon}
         </a>
       ))}
+    
+      {/* Floating button */}
+      <button className="floating-button">
+        <img src={GIF} alt="gif" className="gif-icon" />
+      </button>
     </div>
   );
 };

@@ -2,6 +2,11 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import '../styles/pages/projects.css';
+import image1 from '../assets/projects/image4.png';
+import image2 from '../assets/projects/image5.png';
+import image3 from '../assets/projects/image2.png';
+import image4 from '../assets/projects/image3.png';
+import image5 from '../assets/projects/image1.png';
 
 const Projects = () => {
   const projects = [
@@ -9,7 +14,7 @@ const Projects = () => {
       title: "Website for the private institute promoting paramedical services",
       description: "A website for a private institute promoting paramedical services, designed to showcase the institute’s training programs, healthcare initiatives, and community outreach. The platform provides detailed information on available courses, admission procedures, schedules, and professional opportunities in the paramedical field. It serves as a communication bridge between the institute, students, and healthcare professionals, while promoting awareness and accessibility to quality paramedical education and services.",
       tags: ["React.js", "Node.js", "MySQL"],
-      image: "🎵",
+      image: image1,
       link: "https://isfpp.com/"
     },
     {
@@ -19,7 +24,7 @@ const Projects = () => {
         { icon: "⭐", value: "682" }
       ],
       tags: ["React.js"],
-      image: "🎧",
+      image: image2,
       link: "https://sante-mitsimbinav.netlify.app"
     },
     {
@@ -29,7 +34,7 @@ const Projects = () => {
         { icon: "⬇" }
       ],
       tags: ["React.js", "Express.js", "PostgreSQL" , "WebRTC"],
-      image: "🎨",
+      image: image3,
       link: "#"
     },
     {
@@ -39,7 +44,7 @@ const Projects = () => {
         { icon: "⬇" }
       ],
       tags: ["React.js", "Spring Boot", "PostgreSQL"],
-      image: "🎨",
+      image: image4,
       link: "#"
     },
     {
@@ -49,7 +54,7 @@ const Projects = () => {
         { icon: "⬇" }
       ],
       tags: ["React.js", "Spring Boot", "PostgreSQL"],
-      image: "🎨",
+      image: image5,
       link: "#"
     },
 
