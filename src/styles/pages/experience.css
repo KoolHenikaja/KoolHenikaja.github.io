@@ -1,0 +1,87 @@
+/* styles/pages/experience.css */
+.experience-section {
+  padding: 60px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-tabs {
+  display: flex;
+  margin-bottom: 40px;
+  border-left: 2px solid #233554;
+}
+
+.experience-tab {
+  background: none;
+  border: none;
+  color: #8892b0;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  transition: all 0.25s;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+}
+
+.experience-tab:hover {
+  color: #64ffda;
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.experience-tab.active {
+  color: #64ffda;
+  border-left-color: #64ffda;
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.experience-content {
+  min-height: 300px;
+}
+
+.experience-item {
+  display: none;
+}
+
+.experience-item.active {
+  display: block;
+}
+
+.experience-title {
+  color: #ccd6f6;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.experience-company {
+  color: #64ffda;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.experience-period {
+  color: #8892b0;
+  font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+}
+
+.experience-description {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-description li {
+  color: #8892b0;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.experience-description li::before {
+  content: '▹';
+  color: #64ffda;
+  position: absolute;
+  left: 0;
+}

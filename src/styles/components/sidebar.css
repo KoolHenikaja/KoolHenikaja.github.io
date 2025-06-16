@@ -1,0 +1,19 @@
+/* styles/components/sidebar.css */
+.sidebar {
+  flex: 0 0 450px;
+  margin-top: 6%;
+  position: fixed;
+  top: 40px;
+  height: fit-content;
+}
+
+.sidebar-container {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    flex: none;
+    position: static;
+  }
+}
