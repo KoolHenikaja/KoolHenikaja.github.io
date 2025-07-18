@@ -3,6 +3,7 @@
 .social-links {
   display: flex;
   gap: 20px;
+  margin-left: -51%;
 }
 
 .social-link {
@@ -34,6 +35,7 @@
 
 .floating-button {
   background: none;
+  margin-top: -50px;
   border: none;
   padding: 0;
   cursor: pointer;
