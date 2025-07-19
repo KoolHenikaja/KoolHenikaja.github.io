@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
+import VantaBackground from './components/VantaBackground';
 import './styles/global.css';
 
 const App = () => {
@@ -23,11 +24,15 @@ const App = () => {
   };
 
   return (
+    <div>
+      <VantaBackground />
+    <div className="overlay-pattern"></div>
     <div className="portfolio-container">
       <Sidebar activeSection={activeSection} setActiveSection={setActiveSection} />
       <main className="main-content">
         {renderSection()}
       </main>
+    </div>
     </div>
   );
 };
